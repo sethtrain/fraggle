@@ -1,0 +1,7 @@
+{:port 8080
+ :db-name "{{name}}"
+ :db-user "{{name}}"
+ :db-password "password"
+ :db-host "localhost"
+ :db-port "5432"
+ :jwt-secret ""}
