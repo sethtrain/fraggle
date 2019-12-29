@@ -10,6 +10,7 @@
               :sanitized (name-to-path name)}]
     (main/info "Generating fresh fraggle project.")
     (->files data
+             ["docker-compose.yml" (render "docker-compose.yml" data)]
              ["project.clj" (render "project.clj" data)]
              ["README.md" (render "README.md" data)]
              [".gitignore" (render ".gitignore" data)]

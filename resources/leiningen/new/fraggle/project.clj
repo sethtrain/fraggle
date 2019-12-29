@@ -11,9 +11,6 @@
                                                     javax.jms/jms
                                                     com.sun.jmdk/jmxtools
                                                     com.sun.jmx/jmxri]]
-                 [metrics-clojure "2.7.0"]
-                 [metrics-clojure-jvm "2.7.0"]
-                 [metrics-clojure-ring "2.7.0"]
                  [org.clojure/clojure "1.8.0"]
                  [org.clojure/java.jdbc "0.6.2-alpha3"]
                  [org.clojure/tools.logging "0.3.1"]
