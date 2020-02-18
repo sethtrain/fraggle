@@ -37,7 +37,6 @@
 (def app
   (-> handler
       wrap-exception-json
-      wrap-jwt-verification
       wrap-keyword-params
       wrap-json-params
       wrap-json-response))
